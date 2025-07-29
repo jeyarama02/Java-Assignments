@@ -36,7 +36,7 @@ class EmployeeClass {
 
     public static void main(String[] args) {
         EmployeeClass e1 = new EmployeeClass();
-        EmployeeClass e2 = new EmployeeClass("Alice", 101, "Manager", 55000);
+        EmployeeClass e2 = new EmployeeClass("Abi", 101, "Manager", 55000);
         EmployeeClass e3 = new EmployeeClass(e2);
 
         e1.display();
