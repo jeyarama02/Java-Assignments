@@ -22,8 +22,8 @@ class Vehicle {
     }
 
     public static void main(String[] args) {
-        Vehicle v1 = new Vehicle(1, "Honda", 80000);
-        Vehicle v2 = new Vehicle(2, "Suzuki", 60000);
+        Vehicle v1 = new Vehicle(1, "nissan-gtr", 80000);
+        Vehicle v2 = new Vehicle(2, "toyoto-fortuner", 60000);
 
         v1.display();
         v2.display();
