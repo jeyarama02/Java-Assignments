@@ -13,11 +13,11 @@ public class StudentMarks {
             {70, 75, 80}
         };
 
-        System.out.printf("%-10s %-15s %-10s\n", "Roll No", "Total Marks", "Average");
+        System.out.printf( "Roll No", "Total Marks", "Average");
         for (int i = 0; i < marks.length; i++) {
             int total = marks[i][0] + marks[i][1] + marks[i][2];
             double avg = total / 3.0;
-            System.out.printf("%-10d %-15d %-10.2f\n", (i + 1), total, avg);
+            System.out.printf( (i + 1), total, avg);
         }
     }
 }
