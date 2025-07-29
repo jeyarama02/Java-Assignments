@@ -51,11 +51,11 @@ class Store {
 
 public class InventorySystem {
     public static void main(String[] args) {
-        Store.setStoreDetails("SuperMart", "Chennai");
+        Store.setStoreDetails("SuperMart", "apm");
 
-        Product p1 = new Product(101, "Soap", 25.0, 100);
-        Product p2 = new Product(102, "Shampoo", 120.0, 50);
-        Product p3 = new Product(103, "Toothpaste", 80.0, 75);
+        Product p1 = new Product(101, "Soap", 25, 100);
+        Product p2 = new Product(102, "Shampoo", 120, 50);
+        Product p3 = new Product(103, "Toothpaste", 80, 75);
 
         Store store = new Store();
         store.addProduct(p1);
