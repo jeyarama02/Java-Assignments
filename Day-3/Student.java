@@ -4,7 +4,7 @@ class Student {
 
     public static void main(String[] args) {
         Student s = new Student();
-        s.name = "John";
+        s.name = "prem";
         s.roll_no = 2;
 
         System.out.println("Name: " + s.name);
