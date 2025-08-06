@@ -1,6 +1,6 @@
 public class SumArray {
     public static void main(String[] args) {
-        int[] arr = {1, 4, 7, 10, 13, 16, 19, 22, 25, 28};
+        int[] arr = {1, 4, 9, 10, 13, 16, 19, 23, 25, 28};
         int sum = 0;
 
         for (int i = 0; i < 10; i++) {
@@ -11,4 +11,5 @@ public class SumArray {
 
         System.out.println("Sum of odd numbers: " + sum);
     }
+
 }
