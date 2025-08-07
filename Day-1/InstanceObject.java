@@ -1,3 +1,4 @@
+/*10. Write a program to check whether the object is an instance of a particular class?*/
 class Father {
 }
 
@@ -22,4 +23,5 @@ public class InstanceObject {
             System.out.println("f is also an instance of Object");
         }
     }
+
 }
