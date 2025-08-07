@@ -1,3 +1,6 @@
+/*Write a class Employee with attributes empId, name, department and salary and define a parameterized constructor
+Employee(int empId, String name, String department, double salary) and assign these variables to instance variables
+accordingly and display them? Learn variable shadowing*/
 public class Employee
 {
     int EmpId;
@@ -19,4 +22,5 @@ public class Employee
         System.out.println(one.EmpName);
         System.out.println(one.EmpSalary);
     }
+
 }
