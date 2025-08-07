@@ -1,3 +1,4 @@
+/*Write a program that illustrate the execution order of static block and initializer block?*/
 public class BlockOrder
 {
     static
@@ -22,3 +23,4 @@ public class BlockOrder
 
     }
 }
+
