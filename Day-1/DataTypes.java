@@ -1,3 +1,6 @@
+/* 2. Write a program in which, declare all data types like integer, double, float, long integer, character, byte data, and print
+them.
+*/
 public class DataTypes
 {
 
@@ -19,4 +22,5 @@ public static void main(String args[])
     
     
 }
+
 }
